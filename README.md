@@ -1,1 +1,0 @@
-# Srom-script-go.io
