@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SRom</title>
+</head>
+<body>
+   <img src="https://th.bing.com/th/id/OIF.uofMY67BO8AQOZoT7YZ2bQ?w=169&h=180&c=7&r=0&o=5&pid=1.7" alt="Аватарка" style="width: 150px; height: 150px; border-radius: 50%;">
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#music">Музыка</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+
+
+    <main>
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Мы любим музыку и делимся ею с вами! Слушайте, наслаждайтесь и открывайте новые мелодии.</p>
+        </section>
+
+        <section id="music">
+            <h2>Слушайте нашу музыку</h2>
+            <audio controls>
+                <source src="Steve Lacy Bad Habit.mp3" type="audio/mpeg">
+                Ваш браузер не поддерживает аудиоплеер.
+            </audio>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+            <p id="response-message" style="display:none;"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
